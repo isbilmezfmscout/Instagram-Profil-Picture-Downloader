@@ -1,6 +1,6 @@
 import instaloader
 
 ig = instaloader.Instaloader()
-dp = input("Kullanici adini giriniz : ")
+dp = input("Username : ")
 
 ig.download_profile(dp , profile_pic_only=True)
